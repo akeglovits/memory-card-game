@@ -1,0 +1,28 @@
+.GameBoard {
+  background-color: lightslategray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.Scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.Scoreboard div {
+  width: 40%;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.CardArea {
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px 20px;
+  width: 90%;
+}
